@@ -1,0 +1,50 @@
+body {
+  background: black;
+}
+
+.points {
+  color: white;
+  font-family: sans-serif;
+  font-size: 200px;
+}
+
+.highscore {
+  float: right;
+}
+.player {
+  z-index: 100;
+  background: white;
+  position: fixed;
+
+  top: 100px;
+}
+
+.cop {
+  position: fixed;
+  left: -120px;
+  top: 100px;
+  background: LightGray;
+
+}
+
+.taxi {
+  position: fixed;
+  left: -120px;
+  top: 100px;
+  background: DimGray;
+}
+
+.van {
+  position: fixed;
+  top: 100px;
+  background: rgb(40, 40, 40);
+  left: -120px;
+}
+
+.alertFriendly {
+  background: blue;
+}
+
+.alertEnemy {
+  background: red;
+}
